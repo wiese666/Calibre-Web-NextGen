@@ -2960,23 +2960,14 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
-"Set up My Library for every non-anonymous user? Each account switches to its "
-"own selection after it is filled with everything that account can currently "
-"see. Anonymous accounts such as Guest are left unchanged; use their per-user "
-"controls to set up a curated public library. Accounts set up before are "
-"never reseeded."
+"Set up My Library for every user? Each account switches to its own selection "
+"after it is filled with everything that account can currently see. Accounts "
+"set up before are never reseeded."
 msgstr ""
 
 #: cps/spa_strings.py
 #, python-brace-format
 msgid "Set up {accounts} accounts with {books} books. {errors} errors."
-msgstr ""
-
-#: cps/spa_strings.py
-#, python-brace-format
-msgid ""
-"Left anonymous accounts unchanged: {accounts}. Use their per-user controls "
-"to set up a curated public library."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -3028,14 +3019,7 @@ msgid ""
 msgstr ""
 
 #: cps/spa_strings.py cps/templates/detail.html
-msgid "It leaves your library and your OPDS feed."
-msgstr ""
-
-#: cps/spa_strings.py cps/templates/detail.html
-msgid ""
-"If you use Kobo's built-in sync, it also leaves your Kobo at its next sync. "
-"Other e-readers keep downloaded copies, and KOReader progress sync keeps "
-"working."
+msgid "The next time your e-reader updates, this book disappears from it."
 msgstr ""
 
 #: cps/spa_strings.py cps/templates/index.html
@@ -6621,15 +6605,15 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid "Some sources need a key for better covers"
-msgstr ""
+msgstr "Einige Quellen erfordern einen Schlüssel für bessere Cover."
 
 #: cps/spa_strings.py
 msgid "Something went wrong"
-msgstr ""
+msgstr "Etwas ist schiefgelaufen."
 
 #: cps/spa_strings.py cps/templates/cover_picker.html
 msgid "Something went wrong. Try again."
-msgstr ""
+msgstr "Etwas ist schiefgelaufen. Bitte erneut versuchen."
 
 #: cps/spa_strings.py
 msgid "Sort order"
@@ -6637,23 +6621,23 @@ msgstr "Sortierreihenfolge"
 
 #: cps/spa_strings.py
 msgid "Source details"
-msgstr ""
+msgstr "Quellendetails"
 
 #: cps/spa_strings.py
 msgid "Start the only OAuth provider automatically"
-msgstr ""
+msgstr "Starte den einzigen OAuth-Anbieter automatisch"
 
 #: cps/spa_strings.py cps/templates/detail.html
 msgid "Started reading"
-msgstr ""
+msgstr "Lesen begonnen"
 
 #: cps/spa_strings.py
 msgid "Starting scan…"
-msgstr ""
+msgstr "Scan gestartet…"
 
 #: cps/spa_strings.py
 msgid "Statistics dashboard"
-msgstr ""
+msgstr "Statistik-Dashboard"
 
 #: cps/spa_strings.py cps/templates/tasks.html
 msgid "Status"
@@ -6662,11 +6646,11 @@ msgstr "Status"
 #: cps/spa_strings.py cps/templates/config_edit.html
 #: cps/templates/cover_picker.html
 msgid "Stretch to fill — no border, slight distortion"
-msgstr ""
+msgstr "Größe anpassen — ohne Rand, leichte Verzerrung"
 
 #: cps/spa_strings.py
 msgid "Subheading"
-msgstr ""
+msgstr "Unterüberschrift"
 
 #: cps/spa_strings.py
 msgid "Support on Ko-fi →"
@@ -6674,11 +6658,11 @@ msgstr "Auf Ko-fi unterstützen →"
 
 #: cps/spa_strings.py
 msgid "Sync only my selected shelves"
-msgstr ""
+msgstr "Synchronisiere ausschließlich meine ausgewählten Regale"
 
 #: cps/spa_strings.py
 msgid "Sync only selected shelves to Kobo"
-msgstr ""
+msgstr "Synchronisiere ausschließlich ausgewählte Regale zu Kobo"
 
 #: cps/spa_strings.py
 msgid "Table view"
@@ -6695,16 +6679,16 @@ msgstr "Tags"
 
 #: cps/spa_strings.py
 msgid "Tags — exclude"
-msgstr ""
+msgstr "Tags — ausschließen"
 
 #: cps/spa_strings.py
 msgid "Tags — include"
-msgstr ""
+msgstr "Tags — einschließen"
 
 #: cps/spa_strings.py cps/templates/config_edit.html
 #: cps/templates/cover_picker.html
 msgid "Target aspect ratio"
-msgstr ""
+msgstr "Zielseitenverhältnis"
 
 #: cps/spa_strings.py cps/templates/tasks.html
 msgid "Task"
@@ -6717,51 +6701,56 @@ msgstr "Aufgaben"
 
 #: cps/spa_strings.py
 msgid "Technical details"
-msgstr ""
+msgstr "Technische Details"
 
 #: cps/spa_strings.py
 msgid "That URL is not a usable image."
-msgstr ""
+msgstr "Diese URL ist kein nutzbares Bild."
 
 #: cps/spa_strings.py
 msgid ""
 "The server-wide option is also off, so nothing can sync yet. An "
 "administrator can enable it in the classic server settings."
 msgstr ""
+"Die serverweite Option ist ebenso aus, deshalb kann noch nichts "
+"synchronisieren. Ein Administrator kann dies in den klassischen "
+"Servereinstellungen einschalten."
 
 #: cps/spa_strings.py
 msgid "This device will no longer sync."
-msgstr ""
+msgstr "Dieses Gerät wird nicht mehr synchronisiert."
 
 #: cps/spa_strings.py
 msgid "This feature is currently disabled at server level."
-msgstr ""
+msgstr "Diese Funktion ist derzeit auf Serverebene deaktiviert."
 
 #: cps/spa_strings.py
 msgid "This format opens in the full-screen reader."
-msgstr ""
+msgstr "Dieses Format kann im Vollbild-Reader geöffnet werden."
 
 #: cps/spa_strings.py
 msgid "This highlight has no saved position"
-msgstr ""
+msgstr "Für dieses Highlight wurde keine Position gespeichert"
 
 #: cps/spa_strings.py
 msgid "This magic link expired. Generate a new one to try again."
-msgstr ""
+msgstr "Dieser magische Link ist abgelaufen. Erstell einen neuen, um es erneut zu versuchen."
 
 #: cps/spa_strings.py
 msgid "This magic link can’t be checked. Generate a new one to try again."
-msgstr ""
+msgstr "Dieser magische Link kann nicht überpüft werden. Erstell einen neuen, um es erneut zu versuchen."
 
 #: cps/spa_strings.py
 msgid "This page doesn't exist here."
-msgstr ""
+msgstr "Diese Seite existiert hier nicht."
 
 #: cps/spa_strings.py
 msgid ""
 "This page ran into an error and could not be displayed. Your library is fine "
 "— reloading usually fixes it."
 msgstr ""
+"Auf dieser Seite ist ein Fehler aufgetreten, sodass sie nicht angezeigt werden "
+"konnte. Deine Bibliothek ist in Ordnung — normalerweise behebt erneutes Laden dies."
 
 #: cps/spa_strings.py
 msgid "This shelf is empty. Add books from any book's page."
@@ -6796,7 +6785,7 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid "Trust authentication header"
-msgstr ""
+msgstr "Vertraue Authentifizierungs-Header"
 
 #: cps/spa_strings.py cps/templates/read.html
 msgid "Two columns"
@@ -6804,15 +6793,15 @@ msgstr "Zwei Spalten"
 
 #: cps/spa_strings.py
 msgid "Two-way sync active"
-msgstr ""
+msgstr "Zweiwege-Synchronisierung aktiv"
 
 #: cps/spa_strings.py
 msgid "Two-way sync preference saved."
-msgstr ""
+msgstr "Zweiwege-Synchronisierung-Präferenz gespeichert."
 
 #: cps/spa_strings.py
 msgid "UI / display configuration"
-msgstr ""
+msgstr "Benutzeroberflächen- / Anzeigeeinstellung"
 
 #: cps/spa_strings.py cps/templates/book_table.html
 msgid "Unarchive"
@@ -6820,11 +6809,11 @@ msgstr "Entarchivieren"
 
 #: cps/spa_strings.py
 msgid "Undo"
-msgstr ""
+msgstr "Rückgängig"
 
 #: cps/spa_strings.py
 msgid "Unhide"
-msgstr ""
+msgstr "Anzeigen"
 
 #: cps/spa_strings.py
 msgid "Unknown color"
@@ -6848,7 +6837,7 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid "Untitled"
-msgstr ""
+msgstr "Ohne Titel"
 
 #: cps/spa_strings.py
 msgid "Update failed."
@@ -7945,10 +7934,8 @@ msgstr "EPUB-Fixer"
 
 #: cps/tasks/thumbnail.py
 #, python-format
-msgid ""
-"%(processed)d/%(total)d processed: %(generated)d generated, %(skipped)d "
-"skipped, %(failed)d failed"
-msgstr ""
+msgid "Generated %(count)s cover thumbnails"
+msgstr "%(count)s Cover Miniaturansichten erzeugt"
 
 #: cps/tasks/thumbnail.py
 msgid "Cover Thumbnails"
@@ -13700,10 +13687,6 @@ msgstr "Ausgewählte Regale für OPDS freigeben"
 #: cps/templates/user_table.html
 msgid "Show Read/Unread Section"
 msgstr "Zeige Gelesen/Ungelesen-Abschnitt"
-
-#, python-format
-#~ msgid "Generated %(count)s cover thumbnails"
-#~ msgstr "%(count)s Cover Miniaturansichten erzeugt"
 
 #~ msgid "New interface available"
 #~ msgstr "Neue Benutzeroberfläche verfügbar"
